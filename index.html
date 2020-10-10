@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+   <h1>Garagi</h1>
+    </header>
+    <main>
+        <section id="formCont">
+     <form id="form">
+         <label for="carModel">Car Model</label><br>
+         <input type="text"  id="carModel"><br>
+         <label for="modelYear">Model Year</label><br>
+         <input type="number" id="modelYear"><br>
+         <label for="manufacturer">Manufacturer</label><br>
+         <select  id="manufacturer">
+             <option value="germany">Germany</option>
+             <option value="korea">Korea</option>
+             <option value="japan">Japan</option>
+             <option value="france">France</option>
+             <option value="usa">USA</option>
+         </select><br>
+         <input type="submit" value="Submit" id="sub">
+     </form>
+    </section>
+    <section id="tableCont">
+        <table id="table">
+        <tr>
+            <th>Car Model</th>
+            <th>Model Year</th>
+            <th>Price</th>
+            <th>Manufacturer</th>
+        </tr>
+    </table>
+    <p id="total"></p>
+    </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="java/app.js"></script>
+</body>
+</html>
